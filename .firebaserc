@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "todo-bygprog"
+  },
+  "targets": {
+    "todo-bygprog": {
+      "hosting": {
+        "react": [
+          "gp-react-todo",
+          "to"
+        ]
+      }
+    }
+  }
+}

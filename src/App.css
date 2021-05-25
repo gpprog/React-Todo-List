@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+  width:auto;
+  margin:0;
+  background-image: url('https://wallpapercave.com/wp/wp2539590.jpg');
+  /* https://wallpapercave.com/wp/wp2539590.jpg  */
+  /*  https://previews.123rf.com/images/oatstocker/oatstocker1711/oatstocker171100258/90740278-notepad-with-compass-wood-background-using-wallpaper-or-background-travel-or-navigator-image-.jpg */
+  /* background:rgba(116, 71, 101, 0.739); */
+  background-size: cover;
+}
+
+header, h1 {
+  font-family: 'Fira Code', monospace;
+  padding:5px;
+  grid-row: 0/1;
+  grid-column: 1/5;
+  text-align: center;
+  color: rgb(64 40 62);
+  height:max-content;
+}
+.App-container{
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+  grid-template-rows: 150px 2.5fr;
+  margin-top: 110px;
+  margin-left:0px;
+  margin-right:0px;
+  min-height: 300px;
+  height:80%;
+  background-color: cadetblue;
+}
+
+
+
+ul {
+  
+  padding:0;
+  grid-column: 1/5;
+  grid-row:3;
+  list-style: none;
+}
+.MuiButton-root{
+  padding: 4px 5px;
+  margin:10px;
+}
+
+
+.MuiButton-containedSizeSmall {
+  font-size: 0.8125rem;
+  padding: 4px 5px;
+
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #98778d;
+}
+.MuiSvgIcon-root{
+  font-size: 1rem;
+  place-self: center;
+}
+
+
+.MuiButtonBase-root{
+
+  margin: 0;
+  place-self: center;
+  padding:0px;
+}
+
+.PrivateSwitchBase-root-5 {
+  padding:0;
+}
+
+
+input{
+  margin-top: 10px;
+  height: 1.5rem;
+  width:70%;
+  margin-left:10px;
+  margin-right:10px;
+  font-size: medium;
+  
+
+}
+
+li{
+  align-items: center;
+  font-size: 1.2rem;
+  display:grid;
+  grid-template-columns: 70% 30%;
+  margin:5px;
+  background-color: rgba(255, 243, 240, 0.185);
+  text-align: center;
+  width: 95%;
+  color:white;
+  grid-column: 1/2;
+  padding:6px;
+}
+
+span{
+    display: flex;
+    justify-content: flex-end;
+    padding:1px;
+    
+    height: 100%;
+    text-align: right;
+    grid-column: 2/3;
+
+}
+
+span:hover {
+  cursor: pointer;
+  
+}
+
+.form-container{
+  
+  grid-column:1/5;
+}
+
+.form{
+  min-width: 360px;
+  display: inline-block;
+}
+
+
+#delete{
+  color:rgba(255, 0, 0, 0.507);
+}
+
+#edit{
+  color:rgb(82, 63, 35);
+}
+
+.login-container{
+  width:250px;
+  grid-column: 2/4;
+}
+
+.login-container h2{
+  color:rgb(65, 43, 128);
+  text-align: center;
+}
+
+a{
+  font-size: 1rem;
+  font-family:monospace;
+  display: block;
+  text-decoration: none;
+  position:relative;
+  margin:0px;
+  padding:0.5rem;
+}
+
+.logout{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checked-true{
+  text-decoration: line-through;
+  text-decoration-color:darkblue;
+  
+  
+}
+
+.add-btn{
+  padding:4px 5px !important;
+}
+
+#alternative{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: max-content;
+}

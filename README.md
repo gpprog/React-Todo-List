@@ -1,3 +1,7 @@
+# This is a Todo application made with React. 
+There is a google firebase authentication for new users to register or for the existing to log in. I have also added a guest sign in to demonstrate the application.
+After authentication, each user can create his own todo list, check when a todo is already acomplished. All data is stored to a google Firerebase database. I used some Material-UI components like buttons and checkout boxes!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
